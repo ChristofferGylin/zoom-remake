@@ -1,6 +1,7 @@
-import { RxHamburgerMenu } from 'react-icons/rx';
+
 import { FaGraduationCap } from 'react-icons/fa';
 import Card from './Card';
+import Hero from './Hero';
 import Menu from './Menu';
 
 const cards = [
@@ -14,11 +15,12 @@ function App() {
   return (
 
 
-    <div className="flex font-open-sans text-zoom-blue">
+    <div className="font-open-sans text-slate-900">
       <Menu />
-      {/* <nav>
-        <RxHamburgerMenu className='md:hidden text-lg' />
-      </nav> */}
+      <Hero />
+      <nav>
+
+      </nav>
       {/* <Card icon={<FaGraduationCap />} title="Education" />
 
       {cards.map((card, index) => {

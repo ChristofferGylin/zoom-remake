@@ -13,6 +13,9 @@ module.exports = {
       },
       colors: {
         'zoom-blue': '#0B5CFF'
+      },
+      screens: {
+        'md': '932px'
       }
     },
   },
