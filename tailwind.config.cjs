@@ -15,6 +15,7 @@ module.exports = {
         'zoom-blue': '#0B5CFF'
       },
       screens: {
+        'sm': '760px',
         'md': '932px'
       }
     },

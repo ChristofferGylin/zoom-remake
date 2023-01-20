@@ -15,7 +15,7 @@ function App() {
   return (
 
 
-    <div className="font-open-sans text-slate-900">
+    <div className="max-w-[1440px] mx-auto font-open-sans text-sm sm:text-base lg:text-lg xl:text-xl text-slate-900">
       <Menu />
       <Hero />
       <nav>
