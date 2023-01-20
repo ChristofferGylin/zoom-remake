@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 const Menu = () => {
 
     return (
-        <nav className='flex justify-between mt-6 w-full static top-0'>
+        <nav className='flex justify-between py-3 w-full static top-0 border-b-2 md:border-transparent border-slate-200'>
             <div className="flex space-x-8 items-center">
                 <h1><img className="ml-6" src="./img/Zoom_logo.svg" alt="Zoom Logo" /></h1>
                 <ul className="hidden md:flex md:space-x-8 text-zinc-600 font-semibold">

@@ -1,3 +1,5 @@
+import { RxHamburgerMenu } from 'react-icons/rx';
+import { IoIosArrowForward } from 'react-icons/io';
 import ButtonLink from "./ButtonLink";
 
 const Hero = () => {
@@ -13,7 +15,7 @@ const Hero = () => {
                         Bring teams together, reimagine workspaces, engage new audiences, and delight your customers - all on the Zoom platform you know and love.
                     </p>
                     <div className="py-2"><ButtonLink isSolid={true} link="#" title="Plans & Pricing" />
-                        <span className="text-zoom-blue">Sign Up, It´s Free</span></div>
+                        <a href="#" className="group text-zoom-blue">Sign Up, It´s Free <IoIosArrowForward className='text-lg fill-transparent transition ease-in-out delay-150 inline -translate-x-2 group-hover:fill-zoom-blue group-hover:translate-x-2 group-hover:inline duration-300' /></a></div>
 
                 </div>
 
