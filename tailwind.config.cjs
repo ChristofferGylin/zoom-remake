@@ -12,7 +12,8 @@ module.exports = {
         'handwriting': ['Pacifico'],
       },
       colors: {
-        'zoom-blue': '#0B5CFF'
+        'zoom-blue': '#0B5CFF',
+        'make-work-blue': '#00053d'
       },
       screens: {
         'sm': '760px',
