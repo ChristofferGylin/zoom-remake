@@ -1,9 +1,9 @@
 const Card = ({ icon, title }) => {
 
     return (
-        <div className="flex flex-col p-6 border border-zoom-blue rounded-xl">
+        <div className="flex flex-col items-center justify-center p-6 border border-blue-300 rounded-2xl hover:border-zoom-blue hover:shadow-lg hover:shadow-zoom-blue/25">
             {icon}
-            <div>{title}</div>
+            <div className="flex justify-center text-center">{title}</div>
         </div>
 
     )

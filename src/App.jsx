@@ -4,6 +4,7 @@ import Card from './Card';
 import Hero from './Hero';
 import MakeWorkLessWork from './MakeWorkLessWork';
 import Menu from './Menu';
+import PowerOrganizations from './PowerOrganizations';
 
 const cards = [
   { icon: <FaGraduationCap />, title: 'Education' },
@@ -23,7 +24,7 @@ function App() {
       </div>
       <MakeWorkLessWork />
       <div className='max-w-[1440px] mx-auto'>
-
+        <PowerOrganizations />
       </div>
       {/* <Card icon={<FaGraduationCap />} title="Education" />
 
