@@ -4,7 +4,7 @@ import ButtonLink from "./ButtonLink";
 const Hero = () => {
 
     return (
-        <header className="flex flex-col sm:flex-row justify-between items-center mt-20">
+        <header className="flex flex-col sm:flex-row justify-between items-center mt-20 md:mb-10">
             <div className="sm:w-3/5 tracking-wide">
                 <div className="flex flex-col justify-center space-y-4 mx-6 h-full font-semibold">
                     <h2 className="text-slate-900 text-2xl sm:text-3xl font-bold">One platform<br />

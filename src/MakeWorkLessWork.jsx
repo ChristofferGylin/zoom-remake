@@ -3,9 +3,9 @@ import { IoIosArrowForward } from 'react-icons/io';
 const MakeWorkLessWork = () => {
 
     return (
-        <section className="flex flex-col items-center sm:flex-row w-full bg-make-work-blue p-6 my-6 mx-auto">
+        <section className="flex flex-col items-center sm:flex-row w-full bg-make-work-blue p-6 my-6 md:mb-10 mx-auto">
 
-            <div className="flex justify-center"><img className="h-2/3 w-2/3 sm:-my-14" src="./img/zoom-wheel.png" alt="Zoom Product Wheel" /></div>
+            <div className="flex justify-center"><img className="h-2/3 w-2/3 md:w-full md:h-full sm:-my-14 md:-my-20" src="./img/zoom-wheel.png" alt="Zoom Product Wheel" /></div>
             <article className="flex flex-col space-y-4">
                 <h2 className="text-xl font-bold text-blue-100">Make work less work</h2>
                 <p className=" font-semibold text-blue-200">Securely connect and collaborate so you can work better together. Simple to manage and delightful to use, Zoom powers the modern workforce.</p>
