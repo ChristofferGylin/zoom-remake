@@ -1,5 +1,6 @@
 import ButtonLink from './ButtonLink';
 import { RxHamburgerMenu } from 'react-icons/rx';
+import { IoIosArrowDown } from 'react-icons/io';
 import MobileMenu from './MobileMenu';
 import toggleMobileMenu from './toggleMobileMenu';
 
@@ -10,10 +11,10 @@ const Menu = () => {
             <div className='flex justify-between'>
                 <div className="flex space-x-8 items-center">
                     <h1><img className="ml-6" src="./img/Zoom_logo.svg" alt="Zoom Logo" /></h1>
-                    <ul className="hidden md:flex md:space-x-8">
-                        <li className="hover:text-zoom-blue"><a href="#">Products</a></li>
-                        <li className="hover:text-zoom-blue"><a href="#">Solutions</a></li>
-                        <li className="hover:text-zoom-blue"><a href="#">Resources</a></li>
+                    <ul className="hidden md:flex md:space-x-6">
+                        <li className="group hover:text-zoom-blue"><a href="#">Products<IoIosArrowDown className='text-sm sm:text-base lg:text-lg xl:text-xl fill-transparent transition ease-in-out delay-150 inline -translate-x-2 group-hover:fill-zoom-blue group-hover:translate-x-2 group-hover:inline duration-300' /></a></li>
+                        <li className="group hover:text-zoom-blue"><a href="#">Solutions<IoIosArrowDown className='text-sm sm:text-base lg:text-lg xl:text-xl fill-transparent transition ease-in-out delay-150 inline -translate-x-2 group-hover:fill-zoom-blue group-hover:translate-x-2 group-hover:inline duration-300' /></a></li>
+                        <li className="group hover:text-zoom-blue"><a href="#">Resources<IoIosArrowDown className='text-sm sm:text-base lg:text-lg xl:text-xl fill-transparent transition ease-in-out delay-150 inline -translate-x-2 group-hover:fill-zoom-blue group-hover:translate-x-2 group-hover:inline duration-300' /></a></li>
                         <li className="hover:text-zoom-blue"><a href="#">Plans & Pricing</a></li>
                     </ul>
                 </div>
